@@ -1,0 +1,20 @@
+{% extends 'main/layout.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+   <div class="features">
+       <h1>Таблица акаунтов</h1>
+        {% if PlayersAccount %}
+           {% for el in PlayersAccount %}
+            <div class="alert aletr-warning">
+                <h3>{{el.id_account}}</h3>
+                <p>{{el.email}}</p>
+                <p>{{el.login}}</p>
+            </div>
+           {% endfor %}
+       {% else %}
+            <p>Нет записей </p>
+       {% endif %}
+   </div>
+{% endblock %}

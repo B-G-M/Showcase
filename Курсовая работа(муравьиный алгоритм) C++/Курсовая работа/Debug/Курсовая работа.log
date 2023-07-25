@@ -1,0 +1,41 @@
+﻿  Ant.cpp
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Ant.cpp(60,56): warning C4244: аргумент: преобразование "_Ty" в "size_t", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Ant.cpp(61,58): warning C4244: аргумент: преобразование "_Ty" в "size_t", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Ant.cpp(75,75): warning C4244: аргумент: преобразование "_Ty" в "size_t", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Ant.cpp(75,25): warning C4244: аргумент: преобразование "_Ty" в "size_t", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Ant.cpp(76,22): warning C4244: =: преобразование "_Ty" в "size_t", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+  Anthill.cpp
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Anthill.cpp(50,23): warning C4018: <: несоответствие типов со знаком и без знака
+  Graph.cpp
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Graph.cpp(11,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Graph.cpp(36,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Graph.cpp(41,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Graph.cpp(62,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Graph.cpp(64,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Graph.cpp(86,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\Graph.cpp(88,21): warning C4018: <: несоответствие типов со знаком и без знака
+  main.cpp
+C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Курсовая работа\main.cpp(11,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Path.cpp
+  Создание кода...
+  Курсовая работа.vcxproj -> C:\Users\User\source\repos\B-G-M\MyPrograms\Курсовая работа\Debug\Курсовая работа.exe

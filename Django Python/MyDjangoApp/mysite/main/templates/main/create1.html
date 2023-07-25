@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Добавление в БД{% endblock %}
+
+{% block content %}
+   <div class="features_create">
+       <h1>Добавление игрока</h1>
+       <form  method="post">
+           {% csrf_token %}
+           {{ form.id_player }}<br>
+           {{ form.name }}<br>
+           {{ form.surname }}<br>
+           {{ form.nickname }}<br>
+           <span>{{ error }}</span>
+           <button class="btn btn-success" type="submit" >Добавить</button>
+       </form>
+   </div>
+{% endblock %}

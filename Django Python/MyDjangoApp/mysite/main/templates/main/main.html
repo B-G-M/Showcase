@@ -1,0 +1,65 @@
+{% extends 'main/layout.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+   <div class="features">
+       <h2>Таблица акаунтов</h2>
+        {% if account %}
+           {% for el in account %}
+            <div class="alert aletr-warning">
+                <h3>Id_account: {{el.id_account}}
+                <p>Email: {{el.email}} </p>
+                <p>Login: {{el.login}}</p>
+                <p>Password: {{el.password}}</p>
+                <p>Player_id:{{el.player_id}}</p>
+                <a href="{% url 'update' el.id %}" class="btn btn-warning">Изменить</a>
+                 <a href="{% url 'delete' el.id %}" class="btn btn-warning">Удалить</a>
+            </div>
+           {% endfor %}
+       {% else %}
+            <p>Нет записей </p>
+       {% endif %}
+   </div>
+{% endblock %}
+
+
+{% block content1 %}
+   <div class="features">
+       <h2>Информация об игроке</h2>
+        {% if info %}
+           {% for el in info %}
+            <div class="alert aletr-warning">
+                <h3>Id_player: {{el.id_player}}</h3>
+                <p>Name: {{el.name}}</p>
+                <p>Surname: {{el.surname}}</p>
+                <p>Nickname: {{el.nickname}}</p>
+                <a href="{% url 'update1' el.id %}" class="btn btn-warning">Изменить</a>
+                 <a href="{% url 'delete1' el.id %}" class="btn btn-warning">Удалить</a>
+            </div>
+           {% endfor %}
+       {% else %}
+            <p style="margin-left: 580px;">Нет записей </p>
+       {% endif %}
+   </div>
+{% endblock %}
+
+
+{% block content2 %}
+   <div class="features">
+        {% if purchases %}
+       <h2>Информация о покупках</h2>
+           {% for el in purchases %}
+            <div class="alert aletr-warning">
+                <h3>Id_account: {{el.account_id}}</h3>
+                <p>Id_purchas: {{el.id_purchas}}</p>
+                <p>Amount: {{el.amount}}</p>
+                <a href="{% url 'update2' el.id %}" class="btn btn-warning">Изменить</a>
+                 <a href="{% url 'delete2' el.id %}" class="btn btn-warning">Удалить</a>
+            </div>
+           {% endfor %}
+       {% else %}
+            <p style="margin-left: 580px;">Нет записей </p>
+       {% endif %}
+   </div>
+{% endblock %}
